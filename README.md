@@ -51,7 +51,7 @@ curl -X POST "[http://127.0.0.1:8000/ask](http://127.0.0.1:8000/ask)" \
 
 ## Architecture (3-Stage Pipeline)
 
-The council.py module implements a directed acyclic graph (DAG) of inference:
+The `council.py` module implements a directed acyclic graph (DAG) of inference:
 
 - Stage 1: Fan-Out (Parallel)
 
@@ -71,11 +71,11 @@ The council.py module implements a directed acyclic graph (DAG) of inference:
 
 ## File Structure    
 
-- main.py: FastAPI entry point & Rich terminal logging logic.
+- `main.py`: FastAPI entry point & Rich terminal logging logic.
 
-- council.py: Core consensus logic, tenacity retry decorators, and model interfacing.
+- `council.py`: Core consensus logic, `tenacity` retry decorators, and model interfacing.
 
-- requirements.txt: Minimal dependency tree.
+- `requirements.txt`: Minimal dependency tree.
 
 ## License
 
