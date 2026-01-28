@@ -77,6 +77,10 @@ The `council.py` module implements a directed acyclic graph (DAG) of inference:
 
 - `requirements.txt`: Minimal dependency tree.
 
+## Meta
+* **Generated with:** Windsurf Cascade (Agentic IDE)
+* **Terminal:** Ghostty
+
 ## License
 
 MIT
