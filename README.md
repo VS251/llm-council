@@ -46,7 +46,7 @@ Open a new terminal tab and fire a request:
 ```bash
 curl -X POST "[http://127.0.0.1:8000/ask](http://127.0.0.1:8000/ask)" \
      -H "Content-Type: application/json" \
-     -d '{"question": "Explain the difference between Concurrency and Parallelism."}'
+     -d '{"question": "Explain the difference between a pointer and a reference in C++?"}'
 ```
 
 ## Architecture (3-Stage Pipeline)
